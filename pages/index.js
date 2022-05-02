@@ -53,30 +53,32 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <label className="mt-2" htmlFor="sellable">
-          Sellable:{' '}
-        </label>
-        <Input bucket={{ name: 'sellable', value: sellable }} />
+        <div className="flex flex-col">
+          <label className="mt-2" htmlFor="sellable">
+            Sellable:{' '}
+          </label>
+          <Input bucket={{ name: 'sellable', value: sellable }} />
 
-        <label className="mt-2" htmlFor="allocated">
-          Allocated:{' '}
-        </label>
-        <Input bucket={{ name: 'allocated', value: allocated }} />
+          <label className="mt-2" htmlFor="allocated">
+            Allocated:{' '}
+          </label>
+          <Input bucket={{ name: 'allocated', value: allocated }} />
 
-        <label className="mt-2" htmlFor="rfp">
-          RFP:{' '}
-        </label>
-        <Input bucket={{ name: 'rfp', value: rfp }} />
+          <label className="mt-2" htmlFor="rfp">
+            RFP:{' '}
+          </label>
+          <Input bucket={{ name: 'rfp', value: rfp }} />
 
-        <label className="mt-2" htmlFor="rtw">
-          RTW:{' '}
-        </label>
-        <Input bucket={{ name: 'rtw', value: rtw }} />
+          <label className="mt-2" htmlFor="rtw">
+            RTW:{' '}
+          </label>
+          <Input bucket={{ name: 'rtw', value: rtw }} />
 
-        <label className="mt-2" htmlFor="ish">
-          ISH:{' '}
-        </label>
-        <Input bucket={{ name: 'ish', value: ish }} />
+          <label className="mt-2" htmlFor="ish">
+            ISH:{' '}
+          </label>
+          <Input bucket={{ name: 'ish', value: ish }} />
+        </div>
       </Layout>
     </div>
   );
